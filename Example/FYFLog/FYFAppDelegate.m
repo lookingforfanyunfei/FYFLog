@@ -7,12 +7,14 @@
 //
 
 #import "FYFAppDelegate.h"
+#import <FYFLog/FYFLog.h>
 
 @implementation FYFAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     // Override point for customization after application launch.
+    [FYFLogger startLogger];
     return YES;
 }
 
