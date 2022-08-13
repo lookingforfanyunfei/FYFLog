@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '10.0'
+
+target 'FYFLog_Example' do
+  pod 'FYFLog', :path => '../'
+
+  target 'FYFLog_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
